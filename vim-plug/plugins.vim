@@ -35,5 +35,5 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " I don't use this plugin if it is needed then just uncomment the Plug
     " Line below
     " Add this to only linux as ranger is not set-up for windows yet
-    " Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
+    Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
 call plug#end()
